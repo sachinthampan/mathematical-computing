@@ -3,7 +3,6 @@ from solver import find_largest_minimal_x
 from src.pell.solver import pells_solver
 
 start = perf_counter()
-result = pells_solver(4)
 best_D, max_x, best_y = find_largest_minimal_x(10_000)
 
 elapsed = perf_counter() - start
